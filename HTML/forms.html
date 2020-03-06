@@ -7,11 +7,44 @@
 </head>
 <body>
     <!-- first, the nomal basic html syntax that includes: html, head and body -->
+    <h2>Login Form</h2>
 
-    <form action=""> <!-- The form tag creates a form -->
+    <form> <!-- The form tag creates a form -->
 
+    <!-- a form takes in input tags that prompt the user to enter data. 
+        - input forms have attributes. like type, name, id and class
+        - the type attribute is what determines what type of input the form will take.
+        - some have special attributes like value= "" for specifying the visible name of the attibute
+        - We also introduced the label tag that is used to show text as well
+    -->
 
+    <input type="search" name="" id="" placeholder="search for your username "></input><button>Search</button> <br><br>
+        <label >Username</label> <!-- the user will see this text-->
+        <input type="email" name="" id=""><br> <br><br>
+        
+        <!--the input will take in an email as its value hnce is of type email
+            - notice that when we change the type attribute, everything will change
+        -->
+        <label> Password</label>
+        <input type="password" name="" id=""> <br><br>
 
+        <h5>What is your favorite color</h5>
+        <input type="color" name="" id=""> <br><br>
+
+        <h5>Please upload an image</h5>
+        <input type="file" name="" id=""> <br><br>
+
+        <h5>What is your Gender</h5>
+        <input type="radio" name="" id="">Male</input>
+        <input type="radio" name="" id="">Female</input> <br><br>
+
+        <h5>Do you agree with our terms and conditions?</h5>
+        <input type="checkbox" name="" id="">I agree</input>
+        <input type="checkbox" name="" id="">I disagree</input><br><br><br>
+
+        <input type="button" value="Submit">
+
+        <!-- We also looked at inline Css, we shall start officially on css next week-->
     </form>
 </body>
 </html>
